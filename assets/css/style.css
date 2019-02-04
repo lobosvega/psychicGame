@@ -1,0 +1,29 @@
+body {
+
+    color: beige;
+    background-color: cadetblue;
+
+}
+
+.background {
+
+    background-color: beige;
+    background-image: url("../images/background.jpg");
+    background-blend-mode: multiply;
+   
+}
+
+#new-game-btn {
+    outline: none;
+    border: black;
+    cursor: pointer;
+    background-color: bisque;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+
+
+}

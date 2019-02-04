@@ -1,2 +1,2 @@
 # psychicGame
-Letter guessing game on JavaScript.
+Word guessing game on JavaScript.

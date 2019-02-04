@@ -9,7 +9,7 @@ body {
 
 .background {
 
-    background-color: beige;
+    background-color: lightgray;
     background-image: url("../images/background.jpg");
     background-blend-mode: multiply;
    
@@ -29,7 +29,31 @@ body {
     padding: 10px;
     border-radius: 20px;
     border-color: black;
-    box-shadow: 0 2px black;
+    box-shadow: 0 4px black;
 }
 
+#new-game-btn:hover {
+
+    box-shadow: 0 2px black;
+    top: 2px;
+}
+
+#new-game-btn:active {
+
+    box-shadow: 0 0 gray;
+    top: 6px;
+}
+
+#palceholder-section {
+
+    background-color: aquamarine;
+
+}
+
+
+#placeholders {
+
+    letter-spacing: 6px;
+    font-size: 40px;
+}
 

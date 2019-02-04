@@ -1,9 +1,11 @@
+
 body {
 
     color: beige;
     background-color: cadetblue;
 
 }
+
 
 .background {
 
@@ -14,16 +16,20 @@ body {
 }
 
 #new-game-btn {
+
     outline: none;
-    border: black;
     cursor: pointer;
     background-color: bisque;
     font-size: 22px;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     color: black;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px;
-
-
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 0 2px black;
 }
+
+

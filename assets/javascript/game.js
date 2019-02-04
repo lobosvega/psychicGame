@@ -1,13 +1,26 @@
 
-var movieTitles= ["one", "two", "tree"];
+//Grab reference from DOM Elements
 
-var empty = [];
-var gameCount = 9;
-var win = 0;
-var losses = 0;
-var guesses = 0;
+
+// Create variables for game
+
+
+//Create NewGame function to reset, pick word and creat placeholders
+
+//LetterGuess function, takes in the letter you pressed and sees if its in the selected word
+
+//CheckIncorrect
+
+//CheckLose
+
+//CheckWin
+
 
 // Crete function that writes how many gusses left to the html 
+
+//
+
+var movieTitles= ["one", "two", "tree"];
 
 // create function that picks a word be gussed 
 movieTitles[Math.floor(Math.random() * movieTitles.length)];
